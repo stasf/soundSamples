@@ -8,6 +8,7 @@
     },
     "devDependencies": {
         "connect": "3.3.5",
-        "http-server": "0.7.5"
+        "http-server": "0.7.5",
+        "serve-static": "1.9.2"
     }
 }
