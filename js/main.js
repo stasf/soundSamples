@@ -30,8 +30,10 @@
 	//Sound Tiles JSOn
 	function TileController() {
 		var self = this;
-
+		
+		self.model = {};
 		self.totalPrice = 0.0;
+
 		self.tiles = [{
 			"name": "Kick",
 			"description": "Classic kick, 100hz resonance",
