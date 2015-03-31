@@ -11,8 +11,8 @@
 				templateUrl: 'index.html'
 			})
 			.state('checkout', {
-				url: '/html/checkout',
-				templateUrl: 'checkout.html'
+				url: '/checkout',
+				templateUrl: '/html/checkout.html'
 			})
 		}])
 
@@ -137,11 +137,9 @@
 	})
 
 
-	app.controller('PriceController', function($scope, $localStorage) {
+	// app.controller('PriceController', function($scope, $localStorage) {
 
-
-
-	});
+	// });
 
 
 	app.controller('TileController', [
