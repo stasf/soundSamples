@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/stasf/soundSamples.git"
     },
-    "dependencies": {
+    "devDependencies": {
         "connect": "3.3.5"
         "http-server": "0.7.5"
     }
