@@ -30,7 +30,7 @@
 	//Sound Tiles JSOn
 	function TileController() {
 		var self = this;
-		
+
 		self.model = {};
 		self.totalPrice = 0.0;
 
@@ -129,6 +129,11 @@
 		];
 
 	}
+
+	TileController.prototype.getTotal = function() {
+		
+
+	};
 
 	//Directive to show the tiles
 	app.directive('soundTile', function() {
